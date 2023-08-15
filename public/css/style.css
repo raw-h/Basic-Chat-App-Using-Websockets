@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(90deg, rgb(62, 85, 198), white,rgb(190, 69, 42));
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.main_img{
+    height: 60px;
+    border: solid black 2px;
+    border-radius: 50px;
+    margin: 2px;
+}
+
+.greeting{
+    display: flex;
+    justify-content: center;
+}
+
+.complete_message{
+    border: solid black 2px;
+    border-radius: 3px;
+    width: 70vh;
+    margin: auto;
+    height: 70vh;
+}
+
+.message_here{
+    width: 60%;
+    height: 24px;
+    border: solid black 2px;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+.send_button_here{
+    height: 28px;
+    border: solid black 2px;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+.message_box{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    margin: auto;
+    width: 68%;
+    overflow-y: auto;
+}
+
+.footer{
+position:fixed;
+bottom: 0px;
+width: 100%;
+text-align: center;
+}
